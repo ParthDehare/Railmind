@@ -1,0 +1,26 @@
+{
+  "benchmark_name": "GNN Routing Engine Latency",
+  "timestamp": "2026-09-19T20:21:40+05:30",
+  "environment": {
+    "platform": "Docker",
+    "cpu_cores": 4,
+    "memory_gb": 16,
+    "os": "Linux"
+  },
+  "workload": {
+    "num_queries": 500,
+    "graph_size": {
+      "track_segments": 150,
+      "junction_nodes": 45
+    }
+  },
+  "results_ms": {
+    "min": 12.4,
+    "median": 38.1,
+    "mean": 39.5,
+    "p90": 44.2,
+    "p95": 46.8,
+    "p99": 49.3,
+    "max": 54.1
+  }
+}
